@@ -4,7 +4,7 @@ A Neovim plugin which enables Conjure to automatically switch when editing cljs 
 
 ## Setup
 
-* Config `init.vim` with following content and then `:PlugInstall`  
+Config `init.vim` with following content and then `:PlugInstall`  
 
 ```
 " install with vim-plug
@@ -23,6 +23,10 @@ endfunction
 command! AutoConjureSelect call AutoConjureSelect()
 autocmd BufReadPost *.cljs :AutoConjureSelect
 ```
+
+## Development
+
+Execute the expression inside `.nvim.fnl` to make the `package.path` variable correct.
 
 ## Trouble shooting
 
