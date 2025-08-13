@@ -1,5 +1,5 @@
-(local {: autoload} (require :nfnl.module))
-(local a (autoload :nfnl.core))
+(local {: autoload} (require :conjure.nfnl.module))
+(local a (autoload :conjure.nfnl.core))
 (local {: decode} (autoload :auto-conjure.edn))
 
 (fn shadow-cljs-content []

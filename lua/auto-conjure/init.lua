@@ -1,7 +1,7 @@
 -- [nfnl] Compiled from fnl/auto-conjure/init.fnl by https://github.com/Olical/nfnl, do not edit.
-local _local_1_ = require("nfnl.module")
+local _local_1_ = require("conjure.nfnl.module")
 local autoload = _local_1_["autoload"]
-local a = autoload("nfnl.core")
+local a = autoload("conjure.nfnl.core")
 local _local_2_ = autoload("auto-conjure.edn")
 local decode = _local_2_["decode"]
 local function shadow_cljs_content()
