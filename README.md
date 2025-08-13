@@ -23,3 +23,12 @@ endfunction
 command! AutoConjureSelect call AutoConjureSelect()
 autocmd BufReadPost *.cljs :AutoConjureSelect
 ```
+
+## Trouble shooting
+
+When you are not sure if this plugin is successfully installed, try this command
+in your Cljs project:
+
+```
+:lua print(require('auto-conjure').shadow_build_id())
+```
